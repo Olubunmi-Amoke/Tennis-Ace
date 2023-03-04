@@ -1,5 +1,8 @@
 # Tennis Ace - Machine Learning
-### I created a Linear Regression model that predicts the outcome for a tennis player based on their playing habits. I examined data of the top 1500 ranked men’s professional tennis league players from the Association of Tennis Professionals (ATP), spanning from 2009 to 2017. Provided in the dataset are service game (offensive) statistics, return game (defensive) statistics, and outcomes for each player, in each year. There were eighteen independent variables in total and one dependent variable. The independent variables consist of both the service game columns (offensive) and the return game columns (defensive). The service game columns are:
+
+I created a Linear Regression model that predicts the outcome for a tennis player based on their playing habits. I examined data of the top 1500 ranked men’s professional tennis league players from the Association of Tennis Professionals (ATP), spanning from 2009 to 2017. Provided in the dataset are service game (offensive) statistics, return game (defensive) statistics, and outcomes for each player, in each year. There were eighteen independent variables in total and one dependent variable. The independent variables consist of both the service game columns (offensive) and the return game columns (defensive). 
+
+#### The service game columns are:
 
 - Aces: number of legal serves by the player where the ball is not touched by the receiver
 - DoubleFaults: number of times a player makes a mistake with both first and second attempts
@@ -12,7 +15,7 @@
 - ServiceGamesWon: number of games where the player served  and won
 - TotalServicePointsWon: proportion of points in games where a player won when it is their service game
 
-### The return game columns are:
+#### The return game columns are:
 - FirstServeReturnPointsWon: proportion of of opponent’s first serve points the player was able to win
 - SecondServeReturnPointsWon: proportion of of opponent’s second serve points the player was able to win
 - BreakPointsOpportunities: number of times there was an opportunity for the player to win the opponent’s service game
